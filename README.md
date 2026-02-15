@@ -36,18 +36,3 @@ This project helps in understanding real-world web interface designs used in air
 
 This project successfully demonstrates how research paper output screens can be implemented using HTML and CSS. The developed web pages closely resemble the interface shown in the selected research paper. The project helped in understanding user interface design principles, layout management, and styling techniques. It also improved practical knowledge of front-end web development and GitHub usage.
 
----
-
-If you want, I can also give you:
-✅ **Abstract**
-✅ **Future Scope**
-✅ **Advantages**
-✅ **Full README.md**
-✅ **Research paper format content**
-
-Just say:
-**“Give me abstract also”**
-or
-**“Give future scope”**
-or
-**“Give full README”**
