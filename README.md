@@ -1,7 +1,7 @@
 
 ## 📝 **Title**
 
-**Design and Implementation of an Airline Reservation System Web Interface**
+**Design and Implementation of an Airline Reservation System **
 
 ## 📌 **Project Description**
 
