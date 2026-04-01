@@ -24,6 +24,51 @@ This project helps in understanding real-world web interface designs used in air
 
 ---
 
+# Algorithm used
+
+Search Algorithm (for flight matching)
+Filtering Algorithm (availability check)
+Sorting Algorithm (ranking flights)
+
+STEP 1: USER INPUT (Filtering begins here)                 
+ Source → Destination → Date → Passengers → Class           
+ User enters travel details via UI
+
+STEP 2: FLIGHT SEARCH                                      
+ System checks database for available flights               
+ Matches route + date + seat availability 
+
+ STEP 3: AVAILABILITY CHECK (Filtering)                     
+ Seats available? Yes → Show flights                        
+ No → Show alternative flights / waiting list   
+
+ STEP 4: PRICING & RANKING ALGORITHM                        
+ Factors: Distance, Demand, Class, Timing, Offers           
+ Sort flights by price / duration / preference  
+
+STEP 5: SEAT SELECTION                                    
+ User selects seat based on availability                    
+ System temporarily locks selected seat            
+
+STEP 6: PASSENGER DETAILS                                  
+ Enter name, age, ID proof                                 
+ Validate user input 
+
+STEP 7: PAYMENT PROCESSING                                 
+ Payment via Card / UPI / Net Banking                       
+ If success → Confirm booking                               
+ If failed → Retry option 
+
+STEP 8: TICKET CONFIRMATION                                
+ Generate PNR (unique ID)                                   
+ Store booking in database                                  
+ Send ticket via Email/SMS      
+
+STEP 9: POST-BOOKING SERVICES                              
+ Modify / Cancel / Check Status                            
+ Refund processing if applicable 
+
+
 ## 🛠 **Technologies Used**
 
 * **HTML5** – for creating the structure of web pages
